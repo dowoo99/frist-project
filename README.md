@@ -19,8 +19,7 @@ https://user-images.githubusercontent.com/82853790/178917343-2d611f0e-589d-4307-
 
    ---
 ### API Table
-![image](https://user-images.githubusercontent.com/82853790/178924622-fc722a85-0940-4c85-8680-bfab42e30597.png)
-
+![image](https://user-images.githubusercontent.com/82853790/178977006-bdbc1759-b928-4fc4-90fe-0a6e56790511.png)
 
 
 
