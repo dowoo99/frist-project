@@ -1,9 +1,9 @@
 # Tour Korea
 ### 항해99 - 1주차 프로젝트 
-#### 2022.7.11 ~ 2022.7.14
-
-
----
+#### 2022.7.11 ~ 2022.7.14   
+   
+   
+---   
 
 ## 프로젝트 소개
 늘 해외여행만 다니는 우리, 국내에도 예쁜 관광지가 많다.
@@ -14,6 +14,30 @@
 <strong>유튜브 링크 : </strong> https://youtu.be/FMlhL29LUaI
 
 https://user-images.githubusercontent.com/82853790/178917343-2d611f0e-589d-4307-b493-9f6dc133164a.mp4
+
+## Tech Stack
+ - Javascript 
+ - Jquery
+ - HTML
+ - CSS
+ - Github
+ - Linux
+ - AWS EC2
+ - Python
+ - Flask
+ - Jinja2
+ - MongoDB
+
+---
+### API Table
+![image](https://user-images.githubusercontent.com/82853790/178924622-fc722a85-0940-4c85-8680-bfab42e30597.png)
+
+
+
+
+---
+### Trouble Shooting
+
 
 
 
