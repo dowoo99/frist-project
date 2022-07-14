@@ -1,0 +1,44 @@
+.wrap {
+  width: 100%;
+  /* background-color: aqua; */
+  position: relative;
+}
+.img_boxes {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/static/images/detail_image.jpg");
+  background-position: center 25%;
+  background-size: cover;
+}
+
+.img_section {
+  width: 50%;
+  height: 50vh;
+  /* background-color: bisque; */
+
+  margin: 0 auto;
+}
+
+.mini_section {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.content {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.content > h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 45px;
+}
+
+.btn-box {
+  float: right;
+}
+.is-info {
+  margin-top: 10px;
+}

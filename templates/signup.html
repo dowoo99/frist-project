@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <link href='{{url_for("static",filename="signup.css")}}' rel="stylesheet">
+    <script defer="defer" src="{{ url_for('static', filename='signup.js') }}"></script>
+    <title>SignUp</title>
+</head>
+
+
+<body>
+    <div class="full-screan">
+        <div class="signup-card">
+            <h2 class="login-title" style="padding-bottom: 5px; color:#ffffff">회원가입 Sign Up</h2>
+            <p style="border-bottom: 3px solid gray; max-width: 500px; width:95%; margin-bottom: 20px;"></p>
+
+
+            <div class="col-md-11" style="margin-bottom:40px;">
+                <label for="id" class="form-label">ID</label>
+                <div class="id-table">
+                    <input type="text" class="form-control" id="id" name="id">
+                    <button onclick="id_verify()" type="button" class="btn btn-warning">중복 확인</button>
+                </div>
+            </div>
+
+
+            <div class="col-md-11" style="margin-bottom:10px;">
+                <label for="pw" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pw">
+            </div>
+
+            <div class="col-md-11" style="margin-bottom:40px;">
+                <label for="pw2" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="pw2">
+            </div>
+
+
+            <div class="col-md-11" style="margin-bottom:5px;">
+                <label for="name" class="form-label">Nickname</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+
+
+            <div class="bts">
+                <button onclick="signup_success()" type="button" class="btn btn-warning" style="color:white;">회원가입
+                </button>
+                <button onclick="signup_cancel()" type="button" class="btn btn-light">가입취소</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

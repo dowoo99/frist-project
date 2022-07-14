@@ -1,0 +1,56 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.mytitle {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/static/images/index_image.jpg");
+  background-position: center;
+  background-size: cover;
+  /* background-size: 1300px; */
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mytitle > .mybtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mytitle > .mybtn > button {
+  width: 100px;
+  height: 30px;
+
+  background-color: transparent;
+  color: white;
+
+  border-radius: 50px;
+  border: 1px solid white;
+
+  margin-top: 40px;
+  margin-right: 15px;
+}
+
+.mycomment {
+  color: gray;
+}
+
+.mycards {
+  margin: 20px auto 0px auto;
+  width: 2000px;
+  height: 1500px;
+  max-width: 1500px;
+  width: 95%;
+}
+
+.mybtns > button {
+  margin-right: 10px;
+}
