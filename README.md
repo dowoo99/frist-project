@@ -40,10 +40,7 @@ https://user-images.githubusercontent.com/82853790/178917343-2d611f0e-589d-4307-
                DB의 int형과 비교를 위해 String 타입을 int 타입으로 형변환. ( | int )
 
 4. 로그인 실패 시 멈추는 문제
-   - 틀린 ID와 PW를 넣을 시,  500 (INTERNAL SERVER ERROR) 가 발생함.
-DB에 데이터가 없을 시 name 변수에 오류가 발생함.
-result = db.users.find_one({'id': username_receive, 'pw': password_hash})
-name = result['name']
+   - 틀린 ID와 PW를 넣을 시,  500 (INTERNAL SERVER ERROR) 가 발생함.   DB에 데이터가 없을 시 name 변수에 오류가 발생함.   result = db.users.find_one({'id': username_receive, 'pw': password_hash})  name = result['name']
    - 해결 :결과가 있을 시에만 name변수에 할당하게 설정( if result is not None:  코드 추가)
 
 5. 화면전환 시 그에 맞는 데이터 가져오기 
